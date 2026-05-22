@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth; /* Silliq surilish */
+}
+
+body {
+    background-color: #0c0c0c;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.container { display: flex; }
+
+/* Sidebar */
+.sidebar {
+    width: 260px;
+    height: 100vh;
+    background-color: #0e519d;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.avatar {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+    background: #333;
+    margin-bottom: 40px;
+}
+
+.sidebar ul { list-style: none; width: 100%; }
+.sidebar ul li a {
+    display: block;
+    padding: 15px 30px;
+    color: rgba(255,255,255,0.7);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+    transition: 0.3s;
+}
+.sidebar ul li a:hover { color: white; background: rgba(0,0,0,0.1); }
+
+/* Content */
+.content {
+    margin-left: 240px;
+    flex: 1;
+    padding: 60px;
+}
+
+.page-section {
+    min-height: 100vh;
+    padding-top: 40px;
+   
+}
+
+h1 { font-size: 45px; letter-spacing: -1px; }
+.location { color: #0e519d; font-size: 14px; margin: 10px 0; }
+
+/* Project Grid */
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.project-card {
+    background: #181818;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    border: 1px solid #222;
+    transition: 0.3s;
+}
+
+.project-card:hover { border-color: #0e519d; }
+
+.p-img {
+    width: 100%;
+    height: 160px; /* Rasm o'lchami chegaralangan */
+    object-fit: cover; /* Rasm cho'zilib ketmaydi */
+    background: #252525;
+}
+
+.p-info { padding: 15px; text-align: center; }
+.p-info h3 { font-size: 14px; margin-bottom: 5px; }
+.p-info p { font-size: 12px; color: #666; }
+
+/* Details Panel (Right Sidebar) */
+.details-panel {
+    position: fixed;
+    right: -450px;
+    top: 0;
+    width: 450px;
+    height: 100vh;
+    background: #111;
+    box-shadow: -10px 0 30px rgba(0,0,0,0.5);
+    transition: 0.4s ease;
+    padding: 40px 30px;
+    z-index: 100;
+}
+
+.details-panel.open { right: 0; }
+.close-btn { font-size: 30px; cursor: pointer; color: #666; }
+
+.social-icons {
+    
+    display: flex;
+    gap: 20px;
+    margin-top: 150px;
+}
+
+.icon-circle {
+    width: 45px;
+    height: 45px;
+    background-color: #2a2d34; /* To'q kulrang fon */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s ease;
+}
+
+.icon-circle:hover {
+    background-color: #0e519d; /* Sichqoncha borganda binafsharang bo'ladi */
+    transform: translateY(-3px);
+}
+
+.icon-circle i {
+    pointer-events: none;
+}
+
+.job-title{
+    margin-top: 25px;
+}
