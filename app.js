@@ -1,128 +1,161 @@
 // Loyihalar bazasi
 const projectsData = {
     1: {
-        title: "Counter",
+        title: "Sing in",
         desc: "Malumot",
-        link: "https://counter-190310.netlify.app/",
-        link1: "https://github.com/Javoh1rolimboyev/counter",
+        link: "https://singinamir.netlify.app/",
+        link1: "https://github.com/amirxon9090/sing-in",
         img: "photo_1.jpg"
     },
     2: {
-        title: "Royhat",
+        title: "Codinglab",
         desc: "Malumot",
-        link: "https://royhat-190310.netlify.app/",
-        link1: "https://github.com/Javoh1rolimboyev/royhat",
+        link: "https://codinlabamir.netlify.app/",
+        link1: "https://github.com/amirxon9090/codinglab",
         img: "photo_2.jpg"
     },
     3: {
-        title: "Raqamni top",
+        title: "CHEVROLET SAYT",
         desc: "Malumot",
         link: "https://chevroletamir.netlify.app/",
         link1: "https://github.com/amirxon9090/Chevrolet",
         img: "photo_3.jpg"
     },
     4: {
-        title: "Shajara",
+        title: "Login page",
         desc: "Malumot",
-        link: "https://shajara-2-190310.netlify.app/",
-        link1: "https://github.com/Javoh1rolimboyev/shajara-2",
+        link: "https://loginpageamirxon.netlify.app/",
+        link1: "https://github.com/amirxon9090/login-page",
         img: "photo_4.jpg"
     },
-     5: {
+    5: {
         title: "Isiqlik olchash",
         desc: "Malumot",
-        link: "https://isiqlik-olchash.netlify.app/",
-        link1: "https://github.com/Javoh1rolimboyev/isiqlik-olchash",
+        link: "https://callumhhh.netlify.app/",
+        link1: "https://github.com/amirxon9090/Callum-Hayes",
         img: "photo_5.jpg"
     },
     6: {
-        title: "Kalkulyator",
+        title: "Tasbex",
         desc: "Malumot",
-        link: "https://kalkulyator-190310.netlify.app/",
-        link1: "https://github.com/Javoh1rolimboyev/kalkulyator",
+        link: "https://tasbexx.netlify.app/",
+        link1: "https://github.com/amirxon9090/tasbex",
         img: "photo_6.jpg"
     },
     7: {
-        title: "Lampa",
+        title: "AmirAcadmy",
         desc: "Malumot",
-        link: "https://lampa-190310.netlify.app/",
-        link1: "https://github.com/Javoh1rolimboyev/lampa",
+        link: "https://amiracademy.netlify.app/",
+        link1: "https://github.com/amirxon9090/AmirAcademy",
         img: "photo_7.jpg"
     },
     8: {
-        title: "Login",
+        title: "Shajara",
         desc: "Malumot",
-        link: "https://login-page-190310.netlify.app/",
-        link1: "https://github.com/Javoh1rolimboyev/login-page",
+        link: "https://shajaraqidiruv.netlify.app/",
+        link1: "https://github.com/amirxon9090/shajara-qidiruv",
         img: "photo_8.jpg"
     },
-     9: {
-        title: "Teskari soz",
+    9: {
+        title: "Tugilgan kun aniqlaydigan",
         desc: "Malumot",
-        link: "https://teskari-soz-190310.netlify.app/",
-        link1: "https://github.com/Javoh1rolimboyev/teskari-soz",
+        link: "https://tugulgankun.netlify.app/",
+        link1: "https://github.com/amirxon9090/tugulgan-kun-aniqlaydigan",
         img: "photo_9.jpg"
     },
-     10: {
-        title: "Oila shajara",
+    10: {
+        title: "Market mine",
         desc: "Malumot",
-        link: "https://oila-shajarasi.netlify.app/",
-        link1: "https://github.com/Javoh1rolimboyev/oila.shajarasi",
+        link: "https://marketjs.netlify.app/",
+        link1: "https://github.com/amirxon9090/market-js",
         img: "photo_10.jpg"
     },
-     11: {
-        title: "Test",
+    11: {
+        title: "TESKARI SOZ",
         desc: "Malumot",
-        link: "https://test-190310.netlify.app/",
-        link1: "https://github.com/Javoh1rolimboyev/test",
+        link: "https://teskariyozadigan.netlify.app/",
+        link1: "https://github.com/amirxon9090/teskari-yozadigan",
         img: "photo_11.jpg"
     },
-     12: {
-        title: "Ism familya",
+    12: {
+        title: "Ism aniqlaydigan",
         desc: "Malumot",
-        link: "https://ism-familya-190310.netlify.app/",
-        link1: "https://github.com/Javoh1rolimboyev/ism-familya",
+        link: "https://ismtopadigan.netlify.app/",
+        link1: "https://github.com/amirxon9090/ism-topadigan",
         img: "photo_12.jpg"
     },
-     13: {
-        title: "Tugilgan kun",
+    13: {
+        title: "Harorat olchash",
         desc: "Malumot",
-        link: "https://tugilgan-kun-190310.netlify.app/",
-        link1: "https://github.com/Javoh1rolimboyev/tuglgan-kun",
+        link: "https://gradusamir.netlify.app/",
+        link1: "https://github.com/amirxon9090/gradus",
         img: "photo_13.jpg"
     },
-     14: {
-        title: "Yangi loyiha",
+    14: {
+        title: "Kalkulyator",
         desc: "Malumot",
-        link: "https://yangi-loyiha-190310.netlify.app/",
-        link1: "https://github.com/Javoh1rolimboyev/yangi-loyiha",
+        link: "https://kankulatoramir.netlify.app/",
+        link1: "https://github.com/amirxon9090/kakulator",
         img: "photo_14.jpg"
     },
-     15: {
-        title: "Tugilgan kun",
+    15: {
+        title: "Taqvim-Ramazon",
         desc: "Malumot",
-        link: "https://tugilgan-kun-190310.netlify.app/",
-        link1: "https://github.com/Javoh1rolimboyev/tuglgan-kun",
+        link: "https://taqvimramozon.netlify.app/",
+        link1: "https://github.com/amirxon9090/Taqvim",
         img: "photo_15.jpg"
     }
 };
 
-
 function openProject(id) {
+
     const project = projectsData[id];
     const content = document.getElementById('detailsContent');
-    
-    content.innerHTML = 
-        `<img src="${project.img}" style="width:100%; border-radius:8px; margin-top:20px;">
-        <h2 style="margin:20px 0;">${project.title}</h2>
-        <p style="color:#aaa; line-height:1.6;">${project.desc}</p>
-        <a href="${project.link}" target="_blank" style="display:inline-block; margin-top:20px; color:#6a3bc2; font-weight:bold;">SAYTGA O'TISH</a>
-        <a href="${project.link1}" target="_blank" style="display:block; margin-top:20px; color:#6a3bc2; font-weight:bold;"> KODNI KORISH</a>`
-    ;
-    
-    document.getElementById('detailsSidebar').classList.add('open');
+
+    content.innerHTML = `
+
+    <img src="${project.img}" 
+    style="
+    width:100%;
+    border-radius:16px;
+    margin-top:20px;
+    ">
+
+    <h2 style="
+    margin:20px 0;
+    ">
+        ${project.title}
+    </h2>
+
+    <p style="
+    color:#6b7280;
+    line-height:1.7;
+    ">
+        ${project.desc}
+    </p>
+
+    <div class="project-links">
+
+        <a href="${project.link}" 
+        target="_blank"
+        class="live-btn">
+            Saytga O‘tish
+        </a>
+
+        <a href="${project.link1}" 
+        target="_blank"
+        class="code-btn">
+            Kodni Ko‘rish
+        </a>
+
+    </div>
+    `;
+
+    document.getElementById('detailsSidebar')
+    .classList.add('open');
 }
 
 function closeProject() {
-    document.getElementById('detailsSidebar').classList.remove('open');
+    document.getElementById('detailsSidebar')
+    .classList.remove('open');
 }
